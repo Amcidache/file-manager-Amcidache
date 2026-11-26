@@ -1,0 +1,42 @@
+{
+    "info_settings": [
+        1,
+        0,
+        1,
+        1,
+        1
+    ],
+    "show_hidden_dirs": false,
+    "theme": "black",
+    "quick_access": [
+        "Desktop",
+        "Downloads",
+        "Documents",
+        "Pictures",
+        "Music",
+        "Videos",
+        "C:\\Users\\Amcid\\Desktop\\main"
+    ],
+    "dual_panel": "on",
+    "sort": "name",
+    "themes": {
+        "black": {
+            "name": "Тёмная",
+            "main": "\nQWidget { font: 10pt \"Arial\"; color: #ffffff; }\nQMainWindow { background-color: rgb(33, 33, 33); color: rgb(33, 33, 33); }\nQMenu {\n    background-color: #2b2b2b;\n    color: #ffffff;\n    border: 1px solid #555555;\n    border-radius: 10px;\n    padding: 5px;\n}\nQMenu::item:selected, QMenu::item:hover, QMenuBar::item:selected, QToolButton:hover {\n    background: rgb(40, 40, 40);\n    color: rgb(240, 240, 240);\n    font: 10pt \"Arial\";\n}\nQMenu::item:disabled { color: #666666; background-color: transparent; }\nQMenuBar {\n    background-color: #2b2b2b;\n    color: #ffffff;\n    font-size: 10px;\n    padding: 4px;\n    border-bottom: 1px solid #3c3c3c;\n}\nQPushButton {\n    border: 1px solid #555555;\n    border-radius: 5px;\n    background-color: #353535;\n    color: #ffffff;\n    font: 10pt \"Arial\";\n}\nQPushButton:hover {\n    border: 1px solid rgb(40, 40, 40);\n    border-radius: 5px;\n    background-color: rgb(40, 40, 40);\n    color: rgb(240, 240, 240);\n    font: 10pt \"Arial\";\n}\nQPushButton:disabled { color: #777777; background-color: #303030; border: 1px solid #444444; }\nQTextEdit {\n    background-color: #2b2b2b;\n    border: 2px solid #555555;\n    border-radius: 15px;\n    font: 10pt \"Arial\";\n    color: rgb(255, 255, 255);\n}\nQListWidget {\n    background-color: #2b2b2b;\n    border: 2px solid #555555;\n    border-radius: 15px;\n    font: 10pt \"Arial\";\n    color: rgb(255, 255, 255);\n}\nQLabel { color: #ffffff; font: 10pt \"Arial\"; }\nQStatusBar { background-color: #2b2b2b; color: #ffffff; }\nQLineEdit { background-color: #2b2b2b; color: #ffffff; border: 1px solid #555555; border-radius: 4px; padding: 2px; }\nQDialog { background-color: rgb(33, 33, 33); color: #ffffff; }\nQRadioButton, QCheckBox { color: #ffffff; font: 10pt \"Arial\"; }\nQMessageBox { background-color: rgb(33, 33, 33); color: #ffffff; }\nQHeaderView { background-color: #353535; color: #ffffff; border: none; }\nQHeaderView:horizontal { background-color: #353535; border-top-right-radius: 14px; }\nQHeaderView:vertical { background-color: #353535; border-bottom-left-radius: 14px; }\nQHeaderView::section { background-color: #353535; color: #ffffff; border: none; padding: 4px; font: 10pt \"Arial\"; }\nQTableCornerButton::section { background-color: #353535; border: none; border-top-left-radius: 8px; font: 10pt \"Arial\"; color: rgb(255, 255, 255); }\n",
+            "table": "\nQTableWidget {\n    background-color: rgb(36, 36, 36);\n    alternate-background-color: rgb(35, 35, 35);\n    selection-background-color: rgb(36, 36, 36);\n    selection-color: #ffffff;\n    gridline-color: rgb(36, 36, 36);\n    outline: none;\n    border-radius: 15px;\n    border: 1px solid #555555;\n    font: 10pt \"Arial\";\n    color: #ffffff;\n}\nQTableWidget::item { background-color: rgb(31, 31, 31); border: none; color: #ffffff; }\nQTableWidget::item:alternate { background-color: rgb(35, 35, 35); color: #ffffff; }\nQTableWidget::item:selected, QTableWidget::item:selected:active { background: rgb(36, 36, 36); color: #ffffff; border: none; }\nQHeaderView { background-color: #353535; color: #ffffff; border: none; }\nQHeaderView:horizontal { background-color: #353535; border-top-right-radius: 14px; }\nQHeaderView:vertical { background-color: #353535; border-bottom-left-radius: 14px; }\nQHeaderView::section { background-color: #353535; color: #ffffff; border: none; padding: 4px; font: 10pt \"Arial\"; }\nQTableCornerButton::section { background-color: #353535; border: none; }\n",
+            "quick_access": "\nQListWidget {\n    background-color: #2b2b2b;\n    border: 2px solid #555555;\n    border-radius: 15px;\n    font: 10pt \"Arial\";\n    color: rgb(255, 255, 255);\n}\n",
+            "app": "\nQWidget { font: 10pt \"Arial\"; }\nQMenu::item:selected, QMenu::item:hover, QMenuBar::item:selected, QToolButton:hover {\n    background: rgb(40, 40, 40);\n    color: rgb(240, 240, 240);\n    font: 10pt \"Arial\";\n}\n",
+            "path_link": "#dddddd",
+            "path_more": "#aaaaaa"
+        },
+        "white": {
+            "name": "Светлая",
+            "main": "\nQWidget { font: 10pt \"Arial\"; color: #1e1e1e; }\nQMainWindow { background-color: #f3f3f3; color: #1e1e1e; }\nQMenu {\n    background-color: #ffffff;\n    color: #1e1e1e;\n    border: 1px solid #c8c8c8;\n    border-radius: 10px;\n    padding: 5px;\n}\nQMenu::item:selected, QMenu::item:hover, QMenuBar::item:selected, QToolButton:hover {\n    background: #dce8ff;\n    color: #1e1e1e;\n    font: 10pt \"Arial\";\n}\nQMenu::item:disabled { color: #999999; background-color: transparent; }\nQMenuBar {\n    background-color: #f0f0f0;\n    color: #1e1e1e;\n    font-size: 10px;\n    padding: 4px;\n    border-bottom: 1px solid #d0d0d0;\n}\nQPushButton {\n    border: 1px solid #c8c8c8;\n    border-radius: 5px;\n    background-color: #e6e6e6;\n    color: #1e1e1e;\n    font: 10pt \"Arial\";\n}\nQPushButton:hover {\n    border: 1px solid #b0b0b0;\n    border-radius: 5px;\n    background-color: #dcdcdc;\n    color: #1e1e1e;\n    font: 10pt \"Arial\";\n}\nQPushButton:disabled { color: #999999; background-color: #f0f0f0; border: 1px solid #d0d0d0; }\nQTextEdit {\n    background-color: #ffffff;\n    border: 2px solid #c8c8c8;\n    border-radius: 15px;\n    font: 10pt \"Arial\";\n    color: #1e1e1e;\n}\nQListWidget {\n    background-color: #ffffff;\n    border: 2px solid #c8c8c8;\n    border-radius: 15px;\n    font: 10pt \"Arial\";\n    color: #1e1e1e;\n}\nQLabel { color: #1e1e1e; font: 10pt \"Arial\"; }\nQStatusBar { background-color: #f0f0f0; color: #1e1e1e; }\nQLineEdit { background-color: #ffffff; color: #1e1e1e; border: 1px solid #c8c8c8; border-radius: 4px; padding: 2px; }\nQDialog { background-color: #f3f3f3; color: #1e1e1e; }\nQRadioButton, QCheckBox { color: #1e1e1e; font: 10pt \"Arial\"; }\nQMessageBox { background-color: #f3f3f3; color: #1e1e1e; }\nQHeaderView { background-color: #e6e6e6; color: #1e1e1e; border: none; }\nQHeaderView:horizontal { background-color: #e6e6e6; border-top-right-radius: 14px; }\nQHeaderView:vertical { background-color: #e6e6e6; border-bottom-left-radius: 14px; }\nQHeaderView::section { background-color: #e6e6e6; color: #1e1e1e; border: none; padding: 4px; font: 10pt \"Arial\"; }\nQTableCornerButton::section { background-color: #e6e6e6; border: none; border-top-left-radius: 8px; font: 10pt \"Arial\"; color: #1e1e1e; }\n",
+            "table": "\nQTableWidget {\n    background-color: #ffffff;\n    alternate-background-color: #f5f5f5;\n    selection-background-color: #dce8ff;\n    selection-color: #1e1e1e;\n    gridline-color: #ffffff;\n    outline: none;\n    border-radius: 15px;\n    border: 1px solid #c8c8c8;\n    font: 10pt \"Arial\";\n    color: #1e1e1e;\n}\nQTableWidget::item { background-color: #ffffff; border: none; color: #1e1e1e; }\nQTableWidget::item:alternate { background-color: #f5f5f5; color: #1e1e1e; }\nQTableWidget::item:selected, QTableWidget::item:selected:active { background: #dce8ff; color: #1e1e1e; border: none; }\nQHeaderView { background-color: #e6e6e6; color: #1e1e1e; border: none; }\nQHeaderView:horizontal { background-color: #e6e6e6; border-top-right-radius: 14px; }\nQHeaderView:vertical { background-color: #e6e6e6; border-bottom-left-radius: 14px; }\nQHeaderView::section { background-color: #e6e6e6; color: #1e1e1e; border: none; padding: 4px; font: 10pt \"Arial\"; }\nQTableCornerButton::section { background-color: #e6e6e6; border: none; }\n",
+            "quick_access": "\nQListWidget {\n    background-color: #ffffff;\n    border: 2px solid #c8c8c8;\n    border-radius: 15px;\n    font: 10pt \"Arial\";\n    color: #1e1e1e;\n}\n",
+            "app": "\nQWidget { font: 10pt \"Arial\"; }\nQMenu::item:selected, QMenu::item:hover, QMenuBar::item:selected, QToolButton:hover {\n    background: #dce8ff;\n    color: #1e1e1e;\n    font: 10pt \"Arial\";\n}\n",
+            "path_link": "#000000",
+            "path_more": "#555555"
+        }
+    }
+}
